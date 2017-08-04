@@ -9,12 +9,12 @@ import java.awt.*;
 public class CadrantGui extends JFrame
 {
     Container container;
-    ClockGui clockGui;
+    Cadrant cadrant;
 
     public CadrantGui()
     {
         container = getContentPane();
-        clockGui = new ClockGui();
-        container.add(clockGui);
+        cadrant = new Cadrant();
+        container.add(cadrant);
     }
 }
